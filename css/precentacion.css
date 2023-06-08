@@ -81,8 +81,9 @@
     padding: 10px ;
     text-decoration: none;
     color: #fff;
-    border: 2px solid #000;
+    border: none;
     font-size: 15px;
+    transition:all 1s;
 }
 
 .link_presenacion  .cv a:hover{
