@@ -2,29 +2,47 @@
     padding:25px 200px;
     
     display: flex;
-    background-color: #a4c2be;
+    background-color: #D9EAE8;
 
 }
 .con_tel{
-    width: 30%;
+    width: 50%;
     margin-right: 5%;
 }
+
+.con_tel h2{
+    font-size: 40px;
+    color: rgb(45, 205, 27) ;
+    margin-top: 70px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
 .con_tel img{
-    width: 100%;
+    width: 70%;
     margin-top: 50px;
+    margin-left: 50px;
 }
 
 textarea{
+    height: 150px;
     resize: none;
-    background-color: #D9EAE8;
+    background-color: #ffffff;
     border: none;
     outline: none;
     font-size: 17px;
     font-family:'Raleway', sans-serif;
 }
 .form_contactos{   
-    width: 60%;
+    width: 50%;
     
+    
+}
+
+
+.formulario__contac{
+margin-top: 60px;
+
 }
 
 
@@ -32,16 +50,18 @@ textarea{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    background-color: #D9EAE8;
+    background-color: #ffffff;
     margin-bottom: 10px;
+    
 }
 .form_contactos label{
     margin-bottom:5px;
+    
 }
 
 
 .form_contactos input{
-    background-color: #D9EAE8;
+    background-color: #ffffff;
     border: none;
     outline: none;
     font-size: 17px;
@@ -81,14 +101,14 @@ color: rgb(253, 253, 253);
     
 .boton_enviar{
     margin-top: 15px;
-    padding: 10px 45%;
+    padding: 10px 44%;
     cursor: pointer;
     font-size: 17px;
-    border-radius: 8px;
     border: none;
     background-color: rgb(45, 205, 27);
     transition:all 1s;
     color: #fff;
+    
 }
 .boton_enviar:hover{
     background-color: #0495ef;
@@ -105,11 +125,19 @@ color: rgb(253, 253, 253);
     .form_contactos{
         width: 100%;
     }
+
+    .boton_enviar{
+    
+        padding: 10px 46.5%;
+       
+        
+    }
 }
 
 @media screen and (max-width: 400px) {
     .autor{
-        font-size: 14px;
+        font-size: 12px;
+        text-align: center;
     }
    .form_contactos label{
     font-size: 14px;
@@ -120,4 +148,16 @@ color: rgb(253, 253, 253);
    textarea{
     font-size: 13px;
    }
+
+   .iconosfooter .iconos img{
+    width: 2rem;
+    
+}
+
+.boton_enviar{
+    
+    padding: 10px 40%;
+   
+    
+}
 }

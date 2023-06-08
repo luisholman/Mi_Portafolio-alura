@@ -25,10 +25,16 @@ body{
 .navbar-nav{
     display: flex;
     justify-content: space-around;
+
+}
+
+.nav-link:hover{
+    color: rgb(45, 205, 27);
+    
 }
 .nav-link{
     text-decoration: none;
-    
+    font-weight: 600;
     color: #464646;
 }
 @media screen and (max-width: 780px ){
@@ -51,5 +57,8 @@ body{
     }
     .nav-link{
         padding: 3px;
+        font-size: 15px;
     }
+
+   
 }
