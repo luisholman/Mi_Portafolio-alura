@@ -1,0 +1,63 @@
+.sobremi{
+    padding: 15px 550px 15px 200px;
+}
+.img_bacgroun{
+    background-image: url(../img/) ;
+
+
+}
+
+
+
+.sobremi_titulo{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: rgb(45, 205, 27);
+    text-align: center;
+    
+}
+
+
+.sobremi_texto{
+    font-size: 20px;
+    font-family: 'Raleway';
+    line-height: 19px;
+    
+    
+
+}
+    @media screen and (max-width: 1115px ){
+        .sobremi{
+            padding: 15px 550px 15px 30px;
+        }
+    }
+    @media screen and (max-width: 915px ){
+        .sobremi{
+            padding: 15px 200px 15px 30px;
+        }
+    }
+    @media screen and (max-width: 780px ){
+        .sobremi_titulo{
+            font-size: 27px;
+        }
+        .sobremi_texto{
+            font-size: 18px;
+        }
+
+      
+    }
+    @media screen and (max-width: 400px ){
+        .sobremi{
+            padding: 15px 30px ;
+        }
+        .sobremi_titulo{
+            font-size: 22px;
+            line-height: 22px;
+        }
+        .sobremi_texto{
+            font-size: 15px;
+            line-height: 15px;
+        }
+    }

@@ -1,0 +1,123 @@
+.contacto{
+    padding:25px 200px;
+    
+    display: flex;
+    background-color: #a4c2be;
+
+}
+.con_tel{
+    width: 30%;
+    margin-right: 5%;
+}
+.con_tel img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+textarea{
+    resize: none;
+    background-color: #D9EAE8;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-family:'Raleway', sans-serif;
+}
+.form_contactos{   
+    width: 60%;
+    
+}
+
+
+.foulario{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: #D9EAE8;
+    margin-bottom: 10px;
+}
+.form_contactos label{
+    margin-bottom:5px;
+}
+
+
+.form_contactos input{
+    background-color: #D9EAE8;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-family:'Raleway', sans-serif;
+}
+
+.iconosfooter{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 25px 0;
+    justify-content: center;
+}
+
+.iconosfooter .iconos img{
+    width: 3rem;
+    margin: 15px;
+    border: 4px solid rgba(2, 2, 2, 0);
+    border-radius: 100%;
+}
+
+.iconosfooter .iconos img:hover{
+    background-color: rgb(45, 205, 27);
+    
+}
+
+.autor{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+color: rgb(253, 253, 253);
+
+}
+
+
+    
+.boton_enviar{
+    margin-top: 15px;
+    padding: 10px 45%;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(45, 205, 27);
+    transition:all 1s;
+    color: #fff;
+}
+.boton_enviar:hover{
+    background-color: #0495ef;
+}
+
+@media screen and (max-width: 780px){
+    .con_tel{
+        display: none;
+    }
+    .contacto{
+        justify-content: center;
+        padding: 25px 30px;
+    }
+    .form_contactos{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .autor{
+        font-size: 14px;
+    }
+   .form_contactos label{
+    font-size: 14px;
+   }
+   .form_contactos input{
+    font-size: 13px;
+   } 
+   textarea{
+    font-size: 13px;
+   }
+}

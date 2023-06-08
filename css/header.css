@@ -1,0 +1,55 @@
+body{
+    background-color: #EAF2FD;
+    font-family:'Raleway', sans-serif;
+    color: #464646;
+
+}
+.nav_contenedor{
+    display: flex;
+    background-color: #16171779;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nom_con{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.navegador{
+    width: 50%;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    text-decoration: none;
+    
+    color: #464646;
+}
+@media screen and (max-width: 780px ){
+    .navbar-nav{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen and (max-width: 500px ){
+   .nom_con img{
+    display: none;
+   }
+}
+@media screen and (max-width: 400px ){
+    .nom_con{
+        display: none;
+    }
+    .navegador{
+        width: 100%;
+    }
+    .nav-link{
+        padding: 3px;
+    }
+}

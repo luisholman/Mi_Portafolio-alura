@@ -1,0 +1,115 @@
+.contenedor_inicio{
+    display: flex;
+    align-items: center;
+    padding: 0 200px 10px 200px;
+    justify-content: center;
+}
+
+.inici_texto h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #3b3b3b;
+}
+.inici_texto p{
+    font-size: 25px;
+    line-height: 24px;
+    
+}
+
+.contenedor_foto{
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+.foto_persona{
+    background-image:url(../img/aboutt.jpg) ;
+}
+.link_presenacion{
+    display: flex;
+    
+}
+.link_presenacion div{
+   margin-right: 10px;
+}
+
+.precentacion_div_link{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: none;
+    background-color: #D9EAE8;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nom_con img{
+    width: 5rem;
+    
+}
+
+.link_presenacion .icono-redes img{
+    width: 2rem;
+    border-radius: 100%;
+    border: 2px solid #00000000;
+}
+
+
+.link_presenacion .icono-redes img:hover{
+    background-color: chartreuse;
+}
+
+.img_A{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 1115px ){
+    .contenedor_inicio{
+        padding: 0 20px 10px 30px;;
+    }
+}
+@media screen and (max-width: 780px ){
+    .inici_texto h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .inici_texto p{
+        font-size: 20px;
+        line-height: 20px;
+        
+    }
+    .contenedor_foto{
+        height: 200px;
+        width: 200px;
+       
+    }
+    
+}
+@media screen and (max-width: 400px ){
+    .contenedor_inicio{
+        flex-direction: column-reverse;
+        padding-top: 10px;
+    }
+    .contenedor_foto{
+        height: 150px;
+        width: 150px;
+       
+    }
+    .inici_texto h1{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .inici_texto p{
+        font-size: 16px;
+        line-height: 16px;
+        
+    }
+    .precentacion_div_link{
+        font-size: 14px;
+    }
+}
+
