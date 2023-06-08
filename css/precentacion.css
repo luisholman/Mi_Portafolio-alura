@@ -137,7 +137,7 @@
         line-height: 22px;
     }
     .inici_texto p{
-        font-size: 16px;
+        font-size: 15px;
         line-height: 16px;
         
     }
@@ -146,12 +146,13 @@
     }
 
     .link_presenacion  .cv  {
-        padding: 13px 0px;
-        margin-left: 2px;
+        padding: 1px 0px;
+        margin-left: 1px;
     }
 
     .link_presenacion  .cv a{
         padding: 10px 1px;
+        font-size: 10px;
     }
 
     .img_A{
