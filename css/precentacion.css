@@ -65,18 +65,44 @@
 }
 
 
+
+
 .link_presenacion .icono-redes img:hover{
     background-color: chartreuse;
 }
 
+.link_presenacion  .cv  {
+    padding: 13px 0px;
+    margin-left: 25px;
+}
+
+.link_presenacion  .cv a {
+    background-color: rgb(45, 205, 27);
+    padding: 10px ;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #000;
+    font-size: 15px;
+}
+
+.link_presenacion  .cv a:hover{
+    background: #0495ef;
+}
+
+
+
 .img_A{
-    margin-left: 5px;
+    margin-left: 20px;
+    
 }
 
 @media screen and (max-width: 1115px ){
     .contenedor_inicio{
         padding: 0 20px 10px 30px;;
     }
+
+
+    
 }
 @media screen and (max-width: 780px ){
     .inici_texto h1{
@@ -117,5 +143,21 @@
     .precentacion_div_link{
         font-size: 14px;
     }
+
+    .link_presenacion  .cv  {
+        padding: 13px 0px;
+        margin-left: 2px;
+    }
+
+    .link_presenacion  .cv a{
+        padding: 10px 1px;
+    }
+
+    .img_A{
+        margin-left: 2px;
+        
+    }
+    
+    
 }
 
