@@ -5,14 +5,20 @@
     justify-content: center;
 }
 
-.inici_texto h1{
-    font-size: 60px;
+.inici_texto h1 {
+    font-size: 58px;
     font-weight: 700;
     line-height: 60px;
     color: #3b3b3b;
+    text-align: left;
+}
+
+.inici_texto span{
+    color: rgb(45, 205, 27);
+    
 }
 .inici_texto p{
-    font-size: 25px;
+    font-size: 24px;
     line-height: 24px;
     
 }
