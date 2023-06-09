@@ -37,21 +37,66 @@
     
 }
 .boton_proyecto{
-    margin-top: 10px;
     width: 50%;
-    padding: 15px 0;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    background-color: rgb(45, 205, 27);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    background: rgb(45, 205, 27);
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.boton_proyecto:after{
+    content: "";
+    width: 0;
+    height: 100%;
+    background: #0495ef;
+ position: absolute;
+ transition: all 0.4s ease-in-out;
+ right: 0;
+}
+.boton_proyecto:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+
+   }
+
+   .boton_proyecto span {
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    transition:all 1s;
-}
-.boton_proyecto:hover{
-    background-color: #0495ef;
-}
+    width: 100%;
+    color: #fff;
+    font-size: 17px;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+   }
+   
+   .boton_proyecto:hover span {
+    color: #f7f7f7;
+    animation: scaleUp 0.3s ease-in-out;
+   }
+   
+   @keyframes scaleUp {
+    0% {
+     transform: scale(1);
+    }
+   
+    50% {
+     transform: scale(0.95);
+    }
+   
+    100% {
+     transform: scale(1);
+    }
+   }
+
+   
 
 @media screen and (max-width: 1115px ){
     .proyecto{
